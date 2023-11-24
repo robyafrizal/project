@@ -1,0 +1,9 @@
+body{
+    background-color: antiquewhite;
+    font-family: monospace;
+    font-size: 150%;
+}
+.todo-wrapper{
+    margin: 50px;
+    background-color: aliceblue;
+}
