@@ -1,9 +1,58 @@
 body{
-    background-color: antiquewhite;
+    background-color: green;
     font-family: monospace;
-    font-size: 150%;
+    font-size: 120%;
 }
 .todo-wrapper{
     margin: 50px;
-    background-color: aliceblue;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
+.todo-wrapper h1{
+    margin: 0;
+}
+.todo-wrapper p{
+    margin: 10px 0 ;
+    font-style: italic;
+    color: gray;
+}
+.todo-wrapper form input{
+    display: inline-block;
+    margin: 5px 0;
+    padding: 3px 5px;
+}
+.todo-wrapper form button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.todo-wrapper form button{
+    margin-left: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 12px;
+    display: inline-block;
+    font-size: small;
+}
+.control-wrapper button{
+    margin-left: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 12px;
+    display: inline-block;
+    font-size: small;
+}
+
+
+.todo-wrapper ol{
+    margin: 10px 50px;
+}
+.todo-wrapper ol li{
+    padding: 10px;
+    transition: all 0.5s ease-out;
+}
+
